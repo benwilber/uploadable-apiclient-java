@@ -2,6 +2,16 @@
 Java API Client from Streamable.com
 
 ## Basic Usage
+#### Building
+```
+$ gradle build
+```
+#### Running
+```
+$ java -jar build/libs/uploadable-apiclient-java-0.1.jar
+```
+
+
 #### Build a client
 ```
 // Streamable.com username and password
