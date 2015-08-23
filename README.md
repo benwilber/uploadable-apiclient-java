@@ -1,4 +1,4 @@
-# Java API Client from Streamable.com
+# Java API Client for Streamable.com
 
 ## Basic Usage
 #### Building
