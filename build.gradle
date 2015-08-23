@@ -1,0 +1,29 @@
+apply plugin: 'java'
+
+version = "0.1"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.squareup.retrofit:retrofit:1.8.0'
+}
+
+jar {
+
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+
+    manifest {
+        attributes(
+            "Implementation-Title": "Uploadable - API Client for Streamable.com",
+            "Implementation-Version": version,
+            "Manifest-Version": "1.0",
+            "Main-Class": "uploadable.Main"
+        )
+    }
+}

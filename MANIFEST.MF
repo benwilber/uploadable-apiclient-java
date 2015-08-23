@@ -1,0 +1,8 @@
+
+version = '0.1'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'PicTrip API Client',
+                   'Implementation-Version': version
+    }
+}
