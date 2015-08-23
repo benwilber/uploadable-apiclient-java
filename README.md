@@ -1,5 +1,4 @@
-# uploadable-apiclient-java
-Java API Client from Streamable.com
+# Java API Client from Streamable.com
 
 ## Basic Usage
 #### Building
