@@ -2,7 +2,7 @@
 version = '0.1'
 jar {
     manifest {
-        attributes 'Implementation-Title': 'PicTrip API Client',
+        attributes 'Implementation-Title': 'Uploadable - Java API Client for Streamable.com',
                    'Implementation-Version': version
     }
 }
