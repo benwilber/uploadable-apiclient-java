@@ -20,7 +20,7 @@ Uploadable client = new Uploadable.Builder()
 ```
 #### Upload a video
 ```java
-File file new File("/path/to/file.mp4");
+File file = new File("/path/to/file.mp4");
 UploadFile uploadFile = new UploadFile("video/mp4", file);
 
 // 2nd arg is hashmap of optional params like "mute" and "noresize"
